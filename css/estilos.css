@@ -1,0 +1,73 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.principal{
+	width: 100%;
+	background:#FF0000;
+	border-top: 40px solid #B40404;
+	padding: 15px 0;
+}
+
+.warap{
+	width: 90%;
+	margin: auto;/*Para que el elemento tenga un margen centralizado con respecto a otro elemento*/
+	max-width: 800px;
+
+}
+
+input[type="text"]{
+	width: 100%;
+	margin-top: 40px;
+	height: 40px;
+	padding-left: 5px;
+	font-size: 19px;
+
+}
+.boton{
+	color:#fff;
+	background:#FF0000;
+	padding: 15px;
+	font-size: 18px;
+	border: 1px #B40404 solid;
+	font-family: arial;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.boton:hover{
+	border:1px white solid;
+}
+.principal .warap form {
+	text-align: center;
+}
+
+
+.lista{
+	list-style-type: none;
+}
+
+.lista li{
+	border-bottom: 1px solid #ccc;
+}
+
+.lista li a{
+	display: block;/*Para que muestre el elemento enlace como un bloque y no como un inline-block*/
+	padding: 15px 15px 15px 0px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #000;
+}
+
+.lista li:hover{
+	text-decoration: line-through;
+}
+
+.tarea .warap{
+	background: #FAF8F8;
+}
+
+
